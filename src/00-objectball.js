@@ -131,3 +131,11 @@ function homeTeamName() {
     return newgameObject;
   }
   console.log(newgameObject);
+
+  let oo = { foo: 42, bar: 83, baz: 79 };
+for (let key in oo) {
+  let value = oo[key];
+  console.log("key:", key, "value:", value);
+}
+
+console.log("Object.entries(oo) =>", Object.entries(oo));
